@@ -39,7 +39,7 @@ Your project directory should look like this:
 ```
 .
 ├── metadata.csv
-└── app.py
+└── frameworks.py
 ```
 
 #### 4\. Running the Streamlit App
@@ -47,14 +47,14 @@ Your project directory should look like this:
 Open your terminal, navigate to your project directory, and run the following command. This will launch the web application in your default browser.
 
 ```bash
-streamlit run app.py
+streamlit run frameworks.py
 ```
 
 -----
 
 ### Code Explanation
 
-The `app.py` file contains all the project code. It uses `st.cache_data` for efficiency, `st.slider` for interactive filtering, and `st.pyplot()` to display `matplotlib` plots within the app.
+The `frameworks.py` file contains all the project code. It uses `st.cache_data` for efficiency, `st.slider` for interactive filtering, and `st.pyplot()` to display `matplotlib` plots within the app.
 
 -----
 
